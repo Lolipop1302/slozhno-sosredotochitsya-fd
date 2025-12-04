@@ -8,8 +8,6 @@
   --accent-color: #FF0070;
 }
 
-.theme-dark .header__rec-sign,
-.theme-dark .decorated-zone::before,
-.theme-dark .decorated-zone::after {
+.theme-dark .header__rec-sign {
   display: block;
 }
