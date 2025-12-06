@@ -8,21 +8,8 @@
   --accent-color: #FF8DCB;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-image: url('../images/cover-image-light.png');
-    --bg-color: #FFF1F7;
-    --text-color: #353430;
-    --text-accent-color: #353430;
-    --main-text-color: #353430;
-    --title-color: #FFC2E6;
-    --accent-color: #FF8DCB;
-  }
-
-  .theme-auto .header__rec-sign {
-    display: none;
-  }
-}
+/* для светлой темы я тогда ничего не указываю,
+так как изначально у меня указаны переменные для светлой темы в variables.css */
 
 .theme-light .header__rec-sign {
   display: none;
